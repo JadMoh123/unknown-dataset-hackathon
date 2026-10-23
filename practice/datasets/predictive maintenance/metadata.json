@@ -1,0 +1,19 @@
+{
+  "task_type": "binary classification",
+  "target_column": "Machine failure",
+  "numeric_features": [
+    "Air temperature [K]",
+    "Process temperature [K]",
+    "Rotational speed [rpm]",
+    "Torque [Nm]",
+    "Tool wear [min]",
+    "sensor_offset"
+  ],
+  "categorical_features": [
+    "Type",
+    "Product ID"
+  ],
+  "id_columns": [
+    "UDI"
+  ]
+}

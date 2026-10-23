@@ -1,0 +1,15 @@
+dataset,task,seconds,status,model,ari,nmi,rmse,r2,rmsle,accuracy,macro_f1,balanced_acc
+anisotropic clusters,clustering,1.9,ok,gmm_diag_warm,0.49337,0.56349,,,,,,
+bike sharing,regression,6.5,ok,"hist_gradient_boosting,extra_trees",,,41.12163,0.97291,0.319,,,
+blobs with noise,clustering,2.2,ok,gmm_diag_warm,1.0,1.0,,,,,,
+house prices,regression,7.1,ok,"hist_gradient_boosting_raw_target,ridge,svr_rbf,hist_gradient_boosting_selected_features",,,493585.2286,0.92926,0.10789,,,
+mall customers,clustering,2.0,ok,gmm_diag_warm,0.99545,0.99346,,,,,,
+predictive maintenance,classification,9.0,ok,"hist_gradient_boosting,hist_gradient_boosting_balanced,random_forest,knn,hist_gradient_boosting_balanced_selected_features",,,,,,0.8925,0.86657,0.90851
+real breast cancer,classification,5.3,ok,"logistic_regression,random_forest",,,,,,0.99415,0.99385,0.99524
+real diabetes,regression,5.6,ok,"hist_gradient_boosting,ridge,random_forest,extra_trees,extra_trees_selected_features",,,57.03528,0.50915,0.41689,,,
+real iris,clustering,1.8,ok,gmm_diag_best,0.78687,0.79251,,,,,,
+real wine,clustering,1.8,ok,kmeans,0.89749,0.87589,,,,,,
+real wine classes,classification,6.2,ok,extra_trees,,,,,,1.0,1.0,1.0
+synthetic multiclass,classification,13.5,ok,"extra_trees,svm_rbf,hist_gradient_boosting_selected_features",,,,,,0.83222,0.8075,0.80768
+synthetic nonlinear regression,regression,6.9,ok,"svr_rbf,hist_gradient_boosting_selected_features",,,1.31667,0.92515,0.11354,,,
+telco churn,classification,8.2,ok,"logistic_regression,random_forest,logistic_regression_selected_features",,,,,,0.79067,0.70628,0.71461

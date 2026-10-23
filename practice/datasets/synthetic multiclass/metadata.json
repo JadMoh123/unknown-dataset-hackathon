@@ -1,0 +1,5 @@
+{
+  "problem_type": "multiclass_classification",
+  "label": "species",
+  "metric": "macro_f1"
+}

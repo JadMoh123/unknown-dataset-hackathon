@@ -1,0 +1,16 @@
+{
+  "task": "regression",
+  "target": "count",
+  "evaluation_metric": "RMSLE",
+  "feature_types": {
+    "datetime": "datetime",
+    "season": "categorical",
+    "holiday": "categorical",
+    "workingday": "categorical",
+    "weather": "categorical",
+    "temp": "numeric",
+    "atemp": "numeric",
+    "humidity": "numeric",
+    "windspeed": "numeric"
+  }
+}

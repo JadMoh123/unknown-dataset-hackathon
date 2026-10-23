@@ -1,0 +1,7 @@
+{
+  "task_type": "clustering",
+  "num_groups": 4,
+  "feature_types": {
+    "batch": "categorical"
+  }
+}

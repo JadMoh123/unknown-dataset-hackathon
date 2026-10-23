@@ -1,0 +1,4 @@
+{
+  "task": "clustering",
+  "n_clusters": 3
+}

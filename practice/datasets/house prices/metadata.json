@@ -1,0 +1,6 @@
+{
+  "task": "regression",
+  "target": "SalePrice",
+  "id": "Id",
+  "metric": "rmse"
+}

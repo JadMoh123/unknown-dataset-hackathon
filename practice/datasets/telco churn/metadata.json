@@ -1,0 +1,20 @@
+{
+  "task": "classification",
+  "target": "Churn",
+  "id_column": "customerID",
+  "feature_types": {
+    "gender": "categorical",
+    "SeniorCitizen": "categorical",
+    "Partner": "categorical",
+    "tenure": "numeric",
+    "Contract": "categorical",
+    "InternetService": "categorical",
+    "PaymentMethod": "categorical",
+    "MonthlyCharges": "numeric",
+    "TotalCharges": "numeric",
+    "Country": "categorical",
+    "MonthlyChargesCopy": "numeric",
+    "noise_1": "numeric",
+    "noise_2": "numeric"
+  }
+}
